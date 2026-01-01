@@ -1,0 +1,151 @@
+.herosection{
+    background-image: url(./assets/about-foodpanda.webp);
+    background-size: cover;
+    background-position: center;    
+    
+    width: 100%;
+    height: 400px;
+    margin-top: -60px;
+    
+  
+}
+
+.textarea2{  
+    margin-left: 90px;
+    margin-top: 120px;
+   margin-bottom: 100px; 
+   font-family: poppins, sans-serif; 
+}
+.textarea2 p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .textarea2 h2{
+    font-size: 200%;
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-family: poppins, sans-serif;
+  }
+  .write p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .write h2{
+    font-size: 200%;
+    font-weight: 900;
+    margin-top: 20px;
+    font-family: poppins, sans-serif;
+  }
+  .double{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin-bottom: 100px;
+    margin-top: 120px;
+    background-color: #f3e4e4;
+  }
+  .pic img{
+    width: 560px;
+    height: fit-content;
+    border-radius: 10px;
+  
+  }
+  .values {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.values h2 {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom:50px;
+}
+
+.values-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+.row {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* pill design */
+.pill {
+  padding: 14px 28px;
+  border-radius: 999px;
+  border: 2px solid #e21b70;
+  color: #e21b70;
+  font-size: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* center black pill */
+.pill.dark {
+  background: #000;
+  color: #fff;
+  border: none;
+}
+.pill:hover {
+  background: #e21b70;
+  color: #fff;
+  transition: 0.3s ease;
+}
+.double2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 80px 0 80px;
+    margin-bottom: 100px;
+    margin-top: 120px;
+   
+  }
+  .pic2 img{
+    width: 460px;
+    height: fit-content;
+    border-radius: 10px;
+  
+  }
+  .write2 {
+  
+  padding: 100px 20px;
+}
+  .write2 h2 {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom:50px;
+}
+
+.photo img{
+    width: 600px;
+  gap: 20px;
+}
+.team h1{
+   font-weight: 900;
+    font-size: 36px;
+}
+.team p{
+    font-size: 18px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.panda-team{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 90px 0 90px;
+    margin-bottom: 100px;
+    margin-top: 140px;
+    background-color: #dcd2d2;
+}
+.team{
+  margin-top: 70px;
+}
