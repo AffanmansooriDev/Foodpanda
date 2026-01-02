@@ -1,0 +1,132 @@
+.contactus{
+    background-image: url(assets/fp-contact.webp);
+    background-size: cover;
+    height: 400px;
+    margin-top: -50px;
+    margin-left: -10px;
+}
+.contactus h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: poppins, sans-serif;
+    font-style:initial;
+    padding-top: 230px;
+    margin-left: 100px;
+}
+.form-container {
+            max-width: 700px; /* Form ki width image ke mutabiq */
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 40px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            font-weight: 700;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .required {
+            margin-left: 5px;
+        }
+
+        /* Name Inputs Row */
+        .name-row {
+            display: flex;
+            gap: 20px;
+        }
+
+        .name-field {
+            flex: 1;
+        }
+
+        .sub-label {
+            font-size: 14px;
+            font-weight: 400;
+            color: #333;
+            margin-top: 5px;
+            display: block;
+        }
+
+        /* Standard Input Styles */
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #aeb4b9; /* Halka grey border */
+            border-radius: 6px;
+            font-size: 16px;
+            font-family: inherit;
+            outline: none;
+        }
+
+        input:focus, textarea:focus {
+            border-color: #000; /* Click karne par black border */
+        }
+
+        textarea {
+            height: 250px; /* Message box ki height image ke mutabiq */
+            resize: vertical;
+        }
+
+        /* Submit Button */
+        .submit-btn {
+            background-color: #ff2b85; /* Foodpanda Pink */
+            color: white;
+            border: none;
+            padding: 14px 45px;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 100px; /* Round button */
+            cursor: pointer;
+            transition: background 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .submit-btn:hover {
+            background-color: #e02475;
+        }
+        .thecontainer{
+            font-family: 'Montserrat', sans-serif;
+            background-color: #fff;
+            padding: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }       
+        
+        .paupau img{
+            width: 600px;
+            
+            
+        }
+        .help {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #faeaea;
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .help p{
+            align-items: center;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-size: 20px;
+            font-weight: 700;
+            color: #000;
+            display: flex;
+            justify-content: center;
+        }
+        

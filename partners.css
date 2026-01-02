@@ -1,0 +1,293 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    
+  font-family: poppins, sans-serif;
+    
+}
+.orders{
+    background-image: url(./assets/panda\ partner.png);
+    background-size: cover;
+    height: 500px;
+    margin-top: -50px;
+}
+.orders h2{
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: poppins, sans-serif;
+    font-style:initial;
+    padding-top: 150px;
+    margin-left: 100px;
+}
+.orders button{
+    margin-left: 100px;
+    padding: 15px 30px;
+    background-color: #e21b70;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 800;
+    font-family: poppins, sans-serif;
+}
+.orders button:hover{
+    background-color: #de85ab;
+}
+.become{
+    background-color:#f3ebeb;
+    background-size: cover;
+    margin-top: -20px;
+    padding: 30px;
+    
+    
+}
+.become h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 34px;
+}
+.become p{
+    font-size:18px;
+        display: flex;
+    justify-content: center;
+}
+.pilll{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+        margin-top: -40px;
+}
+.wrapper {
+            max-width:600px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px 18px; /* Vertical aur Horizontal gap exact rakhne ke liye */
+            padding: 20px;
+        }
+
+        .pill {
+            display: inline-block;
+            padding: 14px 40px; /* Thoda zyada horizontal padding image ki tarah */
+            border: 2px solid #d61c62; /* Exact Pinkish-Red color */
+            border-radius: 100px; /* Perfect round edges */
+            color: #ec217c; /* Text color matching the image */
+            font-size: 18px;
+            font-weight: 600;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            background: white;
+            user-select: none;
+        }
+
+        /* Hover state: Black background aur White text */
+        .pill:hover {
+            background-color:#d61c62;
+            color: #ffffff;
+            border-color: #d61c62;
+        }
+
+        /* Bangladesh wala special (Active) state */
+        .pill.selected {
+            background-color: #000000;
+            color: #ffffff;
+            border-color: #000000;
+        }
+
+        /* Layout adjustment for 4-4-2 row style like your image */
+        .wrapper div:nth-child(9), .wrapper div:nth-child(10) {
+            margin-top: 5px;
+        }
+        main{
+            margin-top: -200px;
+        }
+        .section-wrapper {
+            width: 95%; /* Screen ki total width ka 95% cover karega */
+            max-width: 1300px;
+        }
+
+        .section-title {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 40px;
+            color: #000;
+            letter-spacing: -1px;
+            margin-left: 100px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between; /* Charon ko barabar fasle par aik line me rakhega */
+            gap: 40px; /* Cards ke darmiyan gap */
+            width: 85%;
+            margin-left: 100px;
+
+        }
+
+        .card {
+            position: relative;
+            flex: 1; /* Yeh property charon cards ko barabar width degi */
+            height: 500px; /* Image ki lambai ke mutabiq */
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Hover: Card thoda sa upar move hoga */
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .card-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.5s ease;
+        }
+
+        /* Hover: Image zoom effect */
+        .card:hover .card-img {
+            transform: scale(1.08);
+        }
+
+        /* Top blackish shadow taake text nazar aaye */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, transparent 35%);
+            z-index: 1;
+        }
+
+        .card-content {
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            right: 20px;
+            z-index: 2;
+        }
+
+        .card-content h3 {
+            color: white;
+            font-size: 26px;
+            text-transform: uppercase;
+            line-height: 1.1;
+            font-weight: 800;
+        }
+
+        /* Responsive: Chhoti screens par aik ke niche aik ayein ge */
+        @media (max-width: 1024px) {
+            .container {
+                flex-wrap: wrap;
+            }
+            .card {
+                flex: 1 1 calc(50% - 20px); /* Tablet par 2-2 cards */
+                height: 450px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                flex: 1 1 100%; /* Mobile par 1 card */
+            }
+        }
+        .main-title {
+            text-align: center;
+            font-size: 42px;
+            font-weight: 800;
+            margin-bottom: 60px;
+            color: #000;
+        }
+
+        .steps-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        .step-card {
+            background: #ffffff;
+            flex: 1;
+            padding: 40px 25px;
+            border-radius: 25px; /* Perfect rounded corners */
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03); /* Halka sa shadow */
+        }
+
+        .icon-box {
+            height: 80px;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .icon-box img {
+            max-height: 100%;
+            width: auto;
+        }
+
+        .step-number {
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 15px;
+            color: #000;
+        }
+
+        .step-description {
+            font-size: 17px;
+            line-height: 1.5;
+            color: #000;
+            font-weight: 700; /* Bold text jaisa image mein hai */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .steps-container {
+                flex-wrap: wrap;
+            }
+            .step-card {
+                flex: 1 1 calc(50% - 25px);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .step-card {
+                flex: 1 1 100%;
+            }
+            .main-title {
+                font-size: 32px;
+            }
+        }
+        .questions{
+            align-items: center;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-size: 20px;
+            font-weight: 700;
+            color: #000;
+            
+        }
+        hr{
+            width: 1100px;
+            background-color: #000000;
+            height: 1px;
+        }
